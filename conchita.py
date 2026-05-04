@@ -10,7 +10,7 @@ st.title("🎨 Conchita Image Generator")
 
 # Sidebar
 with st.sidebar:
-    api_key = st.text_input("", type="password")
+    api_key = st.text_input("YOUR_API_KEY", type="password")
     st.info("Powered by Nano Banana technology.")
 
 # Interfaz Principal
